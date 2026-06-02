@@ -1,0 +1,37 @@
+<%- include('head', {title: 'LasTime' }); %>
+
+    <body id="body" class="custom-bg">
+        <!--Top Nav-->
+        <div class="navbar fixed-top navbar-dark bg-dark">
+            <div class="ui fluid container center aligned">
+                <span class="topheader" id="homesys-header">LasTime</span>
+            </div>
+        </div>
+
+        <!--Tasks Section-->
+        <div id="container-tasks" class="ui fluid container center aligned pt-15">
+            <div class="ui grid">
+                <div class="ui center algined five wide column">
+                    <div class="ui input topbar">
+                        <input id="tasksearch" type="text" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="text-white ui center aligned pageheader six wide column">
+                    <button id="addTask" class="ui primary button">
+                        <i class="plus icon"></i>
+                        Add Task
+                    </button>
+                </div>
+            </div>
+            <div class="ui container mt-2">
+                <div id="tasks" class="ui centered stackable cards">
+                </div>
+            </div>
+            
+        </div>
+
+        <%- include('footer',{pages: [{name: "tasks" , icon: "tasks" }]}); %>
+
+
+            <script src="../js/dashboard.js"></script>
+    </body>

@@ -1,0 +1,8 @@
+<!-- Bottom Nav-->
+<div class="ui bottom fixed inverted centered borderless menu center aligned">
+    <% for(let i=0; i < pages.length; i++){ %>
+        <div class="item" id="nav-<%= pages[i].name %>">
+            <i class="<%=pages[i].icon%> icon blue" style="visibility: visible;"></i>
+        </div>
+    <% } %>
+</div>

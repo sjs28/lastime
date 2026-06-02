@@ -1,0 +1,141 @@
+.input-styled {
+	background-color: steelblue;
+	border-color: steelblue;
+	color: ghostwhite;
+	margin-top: 5px
+}
+
+.input-styled-text {
+	background-color: ghostwhite;
+	border-radius: 5px;
+	border: 3px solid steelblue;
+	color: black;
+	padding-left: 2%;
+}
+
+.icon.blue {
+	color: steelblue;
+}
+
+.text-white {
+	color: white;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.device {
+	border-radius: 5px;
+}
+
+.ui.labeled.disabled.input > input, .ui.labeled.disabled.input > select {
+	border: 0;
+}
+
+select.disabled{
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	text-indent: 1px;
+  	text-overflow: '';
+}
+
+.custom-bg {
+	background-color: #212121;
+	padding-bottom: 70px;
+	margin-top: 10px;
+}
+
+body {
+	min-height: 100%;
+	max-height: 100%;
+	padding-bottom: 60px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.footer {
+	background-color: #212121;
+	position: absolute;
+	/*bottom: 0;  remove this */
+	margin-top: -50px;
+	/* add this */
+	left: 0;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.topheader {
+	color: white;
+	font-size: 2rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pageheader {
+	padding: 10px 0px;
+}
+
+.pt-15 {
+	padding-top: 15px;
+}
+
+.padded-toggle {
+	padding-top: 0.6rem;
+}
+
+.contaner {
+	margin: 0px;
+	max-width: 1920px;
+}
+
+.container.mt-2 {
+	margin-top: 24px;
+}
+
+.content {
+	color: black;
+}
+
+.ui.disabled.input, .ui.disabled.dropdown{
+	opacity: 1;
+}
+
+select.ui.dropdown{
+	height: auto;
+	width: 100%;
+}
+
+.ui.input{
+	width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.ui.input.topbar {
+	width: 100%;
+	padding-left: 20px;
+}
+
+.ui.fitted.toggle.checkbox{
+	margin-top: 0.6rem;
+}
+
+.ui.ui.ui.blue.label{
+	background-color: steelblue;
+	border-color: steelblue;
+	color: ghostwhite;
+}
+
+div[id^="container-"]{
+	padding-bottom: 70px;
+}
